@@ -6,9 +6,9 @@ import profileImg from "../../../assets/images/profilePic.png"
 
 function CollapsibleExample() {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar collapseOnSelect expand="lg" bg="light" variant="dark" className='border'>
       <Container>
-        <Navbar.Brand href="#home">GainKnowledge</Navbar.Brand>
+        <Navbar.Brand href="#home" className='text-dark'>GainKnowledge</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
