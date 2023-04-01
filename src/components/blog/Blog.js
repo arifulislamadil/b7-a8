@@ -14,7 +14,7 @@ const Blog = ({ blog, handleTime,handleCount }) => {
           <div className="w-100 h h-25 text-center blog-main-img">
             <img className="img-fluid d-inline w-50" src={image} alt="" />
           </div>
-          <div className="d-flex justify-content-between align-items-center">
+          <div className="d-flex justify-content-between align-items-center mt-3">
             <div className="d-flex">
               <img
                 style={{
