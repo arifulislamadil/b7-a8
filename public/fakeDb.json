@@ -7,6 +7,7 @@
       "date": "2022-01-01",
       "summary": "In this blog post, we explore the benefits of positive thinking and how it can improve your mental and physical health."
       ,"readingTime":"5"
+      ,"authorImg":"https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?cs=srgb&dl=pexels-pixabay-220453.jpg&fm=jpg"
     },
     {
       "id": "2",
@@ -16,6 +17,7 @@
       "date": "2022-02-15",
       "summary": "Learn about the advantages of having a side hustle, and discover some ideas for starting your own profitable venture."
       ,"readingTime":"7"
+      ,"authorImg":"https://media.istockphoto.com/id/1309328823/photo/headshot-portrait-of-smiling-male-employee-in-office.jpg?b=1&s=612x612&w=0&k=20&c=eU56mZTN4ZXYDJ2SR2DFcQahxEnIl3CiqpP3SOQVbbI="
     },
     {
       "id": "3",
@@ -25,6 +27,7 @@
       "date": "2022-03-03",
       "summary": "In this post, we discuss why getting enough sleep is essential for good health and productivity, and offer some tips for improving your sleep habits."
       ,"readingTime":"6"
+      ,"authorImg":"https://media.istockphoto.com/id/1300972574/photo/millennial-male-team-leader-organize-virtual-workshop-with-employees-online.jpg?b=1&s=170667a&w=0&k=20&c=96pCQon1xF3_onEkkckNg4cC9SCbshMvx0CfKl2ZiYs="
     },
     {
       "id": "4",
@@ -33,7 +36,10 @@
       "image": "https://images.unsplash.com/photo-1503551723145-6c040742065b-v2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
       "date": "2022-04-10",
       "summary": "Looking for ways to eat healthier and save time? Check out these easy meal prep ideas that are both nutritious and delicious."
-      ,"readingTime":"5"},
+      ,"readingTime":"5"
+      ,"authorImg":"https://preview.keenthemes.com/metronic-v4/theme/assets/pages/img/avatars/team8.jpg"
+    },
+      
     {
       "id": "5",
       "title": "How to Improve Your Public Speaking Skills",
@@ -42,6 +48,7 @@
       "date": "2022-05-22",
       "summary": "Whether you're a student, a business professional, or just someone who wants to improve their communication skills, these tips for better public speaking will help you succeed."
       ,"readingTime":"3"
+      ,"authorImg":"https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80"
     },
     {
       "id": "6",
@@ -51,6 +58,7 @@
       "date": "2022-06-05",
       "summary": "Discover how meditation can reduce stress, improve focus, and promote overall well-being in this informative blog post."
       ,"readingTime":"10"
+      ,"authorImg":"https://t3.ftcdn.net/jpg/02/00/90/24/360_F_200902415_G4eZ9Ok3Ypd4SZZKjc8nqJyFVp1eOD6V.jpg"
     },
     {
       "id": "7",
@@ -60,6 +68,7 @@
       "date": "2022-07-11",
       "summary": "Starting an online store can be challenging, but with these tips for building a successful e-commerce business, you can turn your dreams into reality."
       ,"readingTime":"11"
+      ,"authorImg":"https://www.shutterstock.com/image-photo/smiling-confident-mature-businessman-looking-260nw-2014536947.jpg"
     },
     {
       "id": "8",
@@ -69,4 +78,5 @@
       "date": "2022-08-20",
       "summary": "Embarking on a solo trip can be a transformative experience. In this post, we explore the advantages of traveling alone and offer some tips for making the most of your journey."
       ,"readingTime":"13"
+      ,"authorImg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRibsa0e6BxVkRN78HH5V_i1K3clMqA5mdhgJNkGlyiOL0RtSTI-jrbaE17JrMW6v5t1Eo&usqp=CAU"
       }]

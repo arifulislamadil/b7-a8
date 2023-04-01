@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import authorImg from "../../assets/images/profilePic.png";
+// import authorImg from "../../assets/images/profilePic.png";
 import { faBookmark } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Blog = ({ blog, handleTime,handleCount }) => {
-  const { title, author, image, date, summary, readingTime } = blog;
+  const { title, author, image, date, summary, readingTime,authorImg} = blog;
 
 
   return (

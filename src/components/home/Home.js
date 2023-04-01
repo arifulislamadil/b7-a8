@@ -50,7 +50,7 @@ const Home = ({ handleTime, readingTime }) => {
           <h6 className="bg-primary text-white p-4">Bookmarked Blogs : {counts.length}</h6>
           {
             counts.map(count=><div>
-              <p className="bg-light text-dark p-1 rounded">{count.title.slice(1,30)}</p>
+              <p className="bg-light text-dark p-1 rounded">{count.title.slice(1,40)}</p>
             </div>)
           }
         </div>
