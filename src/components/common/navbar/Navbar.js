@@ -14,9 +14,7 @@ function CollapsibleExample() {
           <Nav className="me-auto">
           </Nav>
           <Nav>
-            
             <Nav.Link href="#deets"><img style={{width:"40px", height:"40px",borderRadius:"50%"}} src={profileImg} alt=""/></Nav.Link>
-            
           </Nav>
         </Navbar.Collapse>
       </Container>
