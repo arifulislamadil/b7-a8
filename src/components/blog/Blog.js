@@ -1,11 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import authorImg from "../../assets/images/profilePic.png";
 import { faBookmark } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const Blog = ({ blog, handleTime }) => {
-  console.log({ handleTime });
+const Blog = ({ blog, handleTime,handleCount }) => {
   const { title, author, image, date, summary, readingTime } = blog;
+
+
   return (
     <div className="col-md-6 card g-4 p-4">
       <div className="blogs-card">
@@ -31,8 +32,8 @@ const Blog = ({ blog, handleTime }) => {
             </div>
             <div className="d-flex">
               <p>{readingTime} min read </p>
-              <button
-                onClick={() => handleTime(readingTime)}
+              <button 
+                onClick={()=>handleCount(blog)}
                 className="ms-2 border-0 text-primary"
               >
                 <FontAwesomeIcon icon={faBookmark} />
@@ -41,15 +42,15 @@ const Blog = ({ blog, handleTime }) => {
           </div>
           <div>
             <h4>{title}</h4>
-            <p
-              style={{
+            
+             <button style={{
                 fontWeight: "bold",
                 color: "blue",
                 textDecoration: "underline",
-              }}
-            >
-              Mark As Read
-            </p>
+                border:"none"
+                
+              }} onClick={() => handleTime(readingTime)}> Mark As Read</button>
+           
           </div>
         </div>
       </div>

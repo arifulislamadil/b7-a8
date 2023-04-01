@@ -19,18 +19,17 @@ function App() {
     setReadingTime(time)
   }
  }
- 
+
+
 
   return (
     <div className=''>
       <CollapsibleExample/>
-     <div className='container main-container row m-auto mt-3'>
-      <div className='home-container col-md-9'>
-        <Home handleTime={handleTime}/>
+     <div >
+      <div >
+        <Home readingTime = {readingTime} handleTime={handleTime}/>
       </div>
-      <div className='home-container col-md-3'>
-        <SideCart readingTime = {readingTime}/>
-      </div>
+      
      
      </div>
     </div>
